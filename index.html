@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BMI CALCULATION </title>
+    <link rel="stylesheet" href="main.css">
+    <script src="logic.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body background="https://i.pinimg.com/originals/8a/39/0a/8a390ab6481a4a07bd07d25eb95b16ce.jpg">
+    
+    <div class="container">  
+        <h1>BMI CALCULATOR </h1>
+        <label>
+            <input id="h-input" type="number" placeholder="Enter Your Height in CM: ">
+        </label>  
+        <br>
+        <br>
+        <br>
+        <label>
+            <input id="w-input" type="number" placeholder="Enter Your Weight in KG: ">
+        </label>     
+        <br>
+        <br>
+        <br>       
+        <button type="submit" onclick="Calculate()">Calculate</button>
+            
+        <div class="bmi-value">
+            <h4> BMI-Value: </h4>
+            <div id="bmi-output"></div>
+        </div>
+        <div class="status">
+            <h4> Status: </h4>
+            <div id="bmi-status"></div>
+        </div>   
+
+    </div>
+
+</body>
+    
